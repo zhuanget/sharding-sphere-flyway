@@ -1,0 +1,8 @@
+server:
+  port: 9080
+
+spring:
+  datasource:
+    password: introcks1234
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
