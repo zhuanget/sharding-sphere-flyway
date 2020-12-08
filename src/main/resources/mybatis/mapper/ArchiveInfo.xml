@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhuanget.mapper.ArchiveInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zhuanget.entity.ArchiveInfo">
+        <id column="id" property="id" />
+        <result column="aid" property="aid" />
+        <result column="name" property="name" />
+        <result column="cid" property="cid" />
+        <result column="birthday" property="birthday" />
+        <result column="gender" property="gender" />
+        <result column="age" property="age" />
+        <result column="residence_addr" property="residenceAddr" />
+        <result column="curr_addr" property="currAddr" />
+        <result column="phone_number" property="phoneNumber" />
+        <result column="phone_mac" property="phoneMac" />
+        <result column="transportation" property="transportation" />
+        <result column="transportation_card" property="transportationCard" />
+        <result column="recent_snap_time" property="recentSnapTime" />
+        <result column="image_count" property="imageCount" />
+        <result column="avatar_url" property="avatarUrl" />
+        <result column="algo_version" property="algoVersion" />
+        <result column="create_time" property="createTime" />
+        <result column="modify_time" property="modifyTime" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="source_type" property="sourceType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, aid, name, cid, birthday, gender, age, residence_addr, curr_addr, phone_number, phone_mac, transportation, transportation_card, recent_snap_time, image_count, avatar_url, algo_version, create_time, modify_time, is_deleted, source_type
+    </sql>
+
+</mapper>

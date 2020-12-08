@@ -6,3 +6,11 @@ spring:
     password: introcks1234
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
     username: root
+    dynamic:
+      datasource:
+       master:
+         url: jdbc:mysql://127.0.0.1:3306/ifaas_datamining?useUnicode=true&characterEncoding=UTF-8
+         username: root
+         password: introcks1234
+         driver-class-name: com.mysql.jdbc.Driver
+
